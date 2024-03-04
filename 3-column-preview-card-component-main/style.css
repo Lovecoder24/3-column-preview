@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+body{
+	
+	display: flex;
+	align-items: center;
+	background:hsl(204, 43%, 93%) ;
+	justify-content: center;
+}
+
+.wrapper{
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	grid-template-columns: 50% 50% 50%;
+	top: 50px;
+	left: 50px;
+	transform: translate(-50% -50%);
+	margin: 50px;
+
+
+}
+.main{
+     border-radius: 10px;
+}
+
+.sedan,.SUVs,.luxury{
+	width: 200px;
+	height: 350px;
+	padding:30px ;
+	font-size: 15px;
+	justify-items: center;
+    border-radius: ;
+    
+   
+}
+
+.sedan{
+	background:hsl(31, 77%, 52%) ;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+   
+}
+
+.SUVs{
+	background: hsl(184, 100%, 22%);
+}
+
+.luxury{
+	background:hsl(179, 100%, 13%);
+	 border-top-right-radius: 10px;
+	 border-bottom-right-radius: 10px;
+
+}
+
+.btn{
+	background: white;
+	border-radius: 25px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding: 15px;
+	text-align: center;
+	width: 100px;
+	cursor:pointer;
+}
+
+.btn:hover{
+	background:hsl(184, 100%, 22%);
+	border:1px solid white;
+	color: white;
+}
+
+.sedan .btn{
+	color:hsl(31, 77%, 52%) ;
+}
+
+.SUVs .btn{
+	color:hsl(184, 100%, 22%) ;
+
+}
+.luxury .btn{
+	color:hsl(179, 100%, 13%);
+}
+
+.sedan .btn:hover{
+	background: hsl(31, 77%, 52%) ;
+	color: white;
+}
+
+.SUVs .btn:hover{
+	background: hsl(184, 100%, 22%);
+	color: white;
+}
+
+.luxury .btn:hover{
+	background:hsl(179, 100%, 13%) ;
+	color: white;
+}
+
+p{
+	font-family:"Lexend Deca" ;
+}
+h1{
+	font-family:"Big Shoulders Display" ;
+	text-transform: uppercase;
+}
+
+
