@@ -1,4 +1,3 @@
-Here is a sample **README** file for the car sales dataset analysis you performed:
 
 ---
 
